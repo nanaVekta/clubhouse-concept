@@ -1,20 +1,103 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list lines="none">
+    <ion-item>
+      <h4>Good Morning, <br> Julius</h4>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <div slot="end">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="6" class="icon">
+              <h2>
+                <b>
+                  <ion-icon name="search"></ion-icon>
+                </b>
+              </h2>
+            </ion-col>
+            <ion-col size="6">
+              <ion-avatar class="avatar">
+                <img src="assets/man.png">
+              </ion-avatar>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-item>
+  </ion-list>
+
+  <ion-slides class="slides" pager="false" [options]="slideOpts">
+    <ion-slide>
+      <ion-grid>
+        <ion-row class="chips">
+          <ion-col col-4>
+            <ion-chip class="phone">
+              <ion-avatar>
+                <img src="assets/smartphone.png">
+              </ion-avatar>
+              <ion-label>Mobile</ion-label>
+            </ion-chip>
+          </ion-col>
+          <ion-col col-4>
+            <ion-chip class="web">
+              <ion-avatar>
+                <img src="assets/world-wide-web.png">
+              </ion-avatar>
+              <ion-label>Web</ion-label>
+            </ion-chip>
+          </ion-col>
+          <ion-col col-4>
+            <ion-chip class="desktop">
+              <ion-avatar>
+                <img src="assets/desktop.png">
+              </ion-avatar>
+              <ion-label>Desktop</ion-label>
+            </ion-chip>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+    <ion-slide>
+      <ion-grid>
+        <ion-row class="chips">
+          <ion-col col-4>
+            <ion-chip class="phone">
+              <ion-avatar>
+                <img src="assets/smartphone.png">
+              </ion-avatar>
+              <ion-label>Mobile</ion-label>
+            </ion-chip>
+          </ion-col>
+          <ion-col col-4>
+            <ion-chip class="web">
+              <ion-avatar>
+                <img src="assets/world-wide-web.png">
+              </ion-avatar>
+              <ion-label>Web</ion-label>
+            </ion-chip>
+          </ion-col>
+          <ion-col col-4>
+            <ion-chip class="desktop">
+              <ion-avatar>
+                <img src="assets/desktop.png">
+              </ion-avatar>
+              <ion-label>Desktop</ion-label>
+            </ion-chip>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </ion-slide>
+
+  </ion-slides>
+
+  <div class="ion-padding upcoming">
+    <h6><b>Upcoming</b></h6>
   </div>
+
+  <ion-card class="upcoming-card">
+    <ion-card-content>
+
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
