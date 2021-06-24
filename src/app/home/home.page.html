@@ -117,7 +117,7 @@
     <h6><b>Happening now</b></h6>
   </div>
 
-  <ion-card class="happening-card">
+  <ion-card class="happening-card ion-activatable ripple-parent" [routerLink]="['/room']" >
     <ion-card-content>
       <ion-grid>
         <ion-row>
@@ -152,9 +152,10 @@
         </ion-item>
       </ion-list>
     </ion-card-content>
+    <ion-ripple-effect></ion-ripple-effect>
   </ion-card>
 
-  <ion-card class="happening-card">
+  <ion-card class="happening-card ion-activatable ripple-parent" [routerLink]="['/room']">
     <ion-card-content>
       <ion-grid>
         <ion-row>
@@ -189,6 +190,7 @@
         </ion-item>
       </ion-list>
     </ion-card-content>
+    <ion-ripple-effect></ion-ripple-effect>
   </ion-card>
 </ion-content>
 

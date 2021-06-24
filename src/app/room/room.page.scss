@@ -1,0 +1,203 @@
+.text-center{
+  text-align: center;
+}
+
+.back-icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+  color: #6e6f84;
+}
+
+ion-content{
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   --background: #f8f7fd;
+}
+
+.avatar{
+  border-radius: 250px;
+}
+
+.one{
+  background-color: #262626;
+}
+
+.two{
+  background-color: #f9d5a1;
+}
+
+.three{
+  background-color: #e8e8e8;
+}
+
+.four{
+  background-color: #ffe6a9;
+}
+
+.five{
+  background-color: #c3f0c5;
+}
+
+.six{
+  background-color: #f7c9d4;
+}
+
+
+.seven{
+  background-color: #cbeafc;
+}
+
+.eight{
+  background-color: #e8e8e8;
+}
+
+.nine{
+  background-color: #ded3fb;
+}
+
+.ten{
+  background-color: #fdeaa5;
+}
+
+.eleven{
+  background-color: #9b80eb;
+}
+
+.twelve{
+  background-color: #a87e63;
+}
+
+.celebrate{
+  background-color: #f4feff;
+  border-radius: 200px;
+  margin-top: -25px;
+  // margin-left: 5px;
+  width: 25px;
+  padding: 3px 5px;
+
+  img{
+    width:100%;
+  }
+}
+
+.mic{
+  border-radius: 200px;
+  margin-top: -25px;
+  margin-left: 80%;
+  background-color: #f4feff;
+  padding: 5px 20px 5px 5px;
+
+}
+
+.avatar-col{
+  --ion-grid-column-padding: 15px;
+}
+
+.name{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name-icon{
+  background-color: #227ee1;
+  padding: 0px 5.5px 2px 5.5px;
+  border-radius: 200px;
+}
+
+.name-text {
+  font-weight: bold;
+}
+
+
+ion-footer{
+  ion-toolbar{
+    --background: #5d60ef;
+    border-radius: 40px 40px 0px 1px;
+  }
+
+
+}
+
+.text-center{
+  text-align: center;
+}
+
+.bar{
+  background-color: #ebeff0;
+  padding: 3px;
+  width: 15%;
+  margin-left: 42%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.input-wrapper{
+  --background: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.input-wrapper-list{
+  background-color: transparent;
+}
+
+ion-input{
+  --background: #9697f4;
+  --color: #fff;
+  --padding-start: 15px !important;
+  --padding-end: 15px !important;
+  --padding-top: 13px;
+  --padding-bottom: 13px;
+  border-radius: 100px;
+  margin-top: 15px;
+  margin-right: 10px
+}
+
+.send-button{
+  background-color: #fff;
+  padding: 10px 8px 5px 12px;
+  border-radius: 255px;
+  margin-top: 15px;
+}
+
+.send-button-icon{
+  color: #5d60ef;
+  width: 28px;
+  height:28px;
+}
+
+.extra-list{
+  margin: 15px -5px -5px -5px;
+  border-radius: 40px 40px 0px 1px;
+}
+
+.extra-item{
+  padding: 25px 8px 15px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.extra-chip{
+  --background: #eff0f5;
+  --color: #5d60ef;
+  padding: 25px;
+  border-radius: 255px;
+  font-size: large;
+}
+
+.hand{
+  background-color: #eff0f5;
+  padding: 15px 18px;
+  border-radius: 255px;
+  margin-right: -5px;
+}
+
+.profile{
+  background-color: #4e4c62;
+  padding: 5px 8px;
+  border-radius: 255px;
+
+  img{
+    width: 40px;
+  }
+}
