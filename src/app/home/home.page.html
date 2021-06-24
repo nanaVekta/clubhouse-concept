@@ -96,8 +96,124 @@
 
   <ion-card class="upcoming-card">
     <ion-card-content>
-
+      <ion-grid>
+        <ion-row>
+          <ion-col size="1">
+            <div class="vl"></div>
+          </ion-col>
+          <ion-col size='10'>
+            <p>10:00 - 20:00</p>
+            <h2>Web on mobile</h2>
+          </ion-col>
+          <ion-col size="1">
+            <ion-icon name="chevron-down-outline" class="chev-icon"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-card-content>
   </ion-card>
 
+  <div class="ion-padding hapening">
+    <h6><b>Happening now</b></h6>
+  </div>
+
+  <ion-card class="happening-card">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+            <h2><b>DESIGN PATTERNS</b></h2>
+            <p>Design and build your application to capture attention</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-list lines="none">
+        <ion-item>
+          <div class="avatar-div">
+            <span class="card-avatar">
+              <img src="assets/c5.jpg">
+            </span>
+            <span class="card-avatar">
+              <img src="assets/c3.jpg">
+            </span>
+            <span class="card-avatar">
+              <img src="assets/c4.jpg">
+            </span>
+          </div>
+
+          <ion-chip slot="end" class="happening-chip">
+            <ion-icon name="person"></ion-icon>
+            <ion-label>162</ion-label>
+            &nbsp;
+            &nbsp;
+            <ion-icon name="mic"></ion-icon>
+            <ion-label>6</ion-label>
+          </ion-chip>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="happening-card">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+            <h2><b>DATA STRUCTURES</b></h2>
+            <p>Why ask data structures questions during front-end interview? </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-list lines="none">
+        <ion-item>
+          <div class="avatar-div">
+            <span class="card-avatar">
+              <img src="assets/c5.jpg">
+            </span>
+            <span class="card-avatar">
+              <img src="assets/c3.jpg">
+            </span>
+            <span class="card-avatar">
+              <img src="assets/c4.jpg">
+            </span>
+          </div>
+
+          <ion-chip slot="end" class="happening-chip">
+            <ion-icon name="person"></ion-icon>
+            <ion-label>162</ion-label>
+            &nbsp;
+            &nbsp;
+            <ion-icon name="mic"></ion-icon>
+            <ion-label>6</ion-label>
+          </ion-chip>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
+
+<ion-footer  class="ion-no-border">
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <div class="footer-icon">
+            <span class="icon-background">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </span>
+          </div>
+        </ion-col>
+        <ion-col size="8" class="text-center">
+          <ion-button e><ion-icon name="add-circle"></ion-icon> &nbsp; Start room</ion-button>
+        </ion-col>
+        <ion-col size="2">
+          <div class="footer-icon">
+            <span class="icon-background">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
